@@ -1,0 +1,14 @@
+---
+title: "Hack Oregon Data Sizing"
+output: html_notebook
+---
+
+## Census TIGER data
+```{r}
+download.file(
+  "ftp://ftp2.census.gov/geo/tiger/TIGER2016/2016_TL_Shapefiles_File_Name_Definitions.pdf",
+  "2016_TL_Shapefiles_File_Name_Definitions.pdf",
+  quiet = TRUE
+)
+```
+
